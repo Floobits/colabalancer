@@ -1,0 +1,24 @@
+{
+  "name": "floobits_colabalancer",
+  "bin": "./bin/colabalancer",
+  "repository": "https://github.com/Floobits/colabalancer/",
+  "contributors": [
+    "Matt Kaniaris <mkaniaris@gmail.com>",
+    "Geoff Greer <geoff@greer.fm>"
+  ],
+  "version": "0.0.1",
+  "dependencies": {
+    "async": "0.2.x",
+    "express": "3.x",
+    "lodash": "1.3.x",
+    "nodeunit": "0.8.x",
+    "request": "2.x"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "./bin/colabalancer",
+    "test": "NODE_PATH=lib:tests ./tests/run_tests"
+  }
+}
