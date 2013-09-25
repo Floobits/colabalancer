@@ -17,6 +17,3 @@ exports.socket_io_port = 8048;
 exports.socket_io_transports = ["websocket"];
 
 exports.metrics_port = 81;
-
-exports.max_buf_history = 15;
-exports.max_buf_len = 10000000; // 10MB
