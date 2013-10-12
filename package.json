@@ -13,7 +13,8 @@
     "lodash": "2.2.x",
     "nodeunit": "0.8.x",
     "request": "2.x",
-    "socket.io": "0.9.x"
+    "socket.io": "0.9.x",
+    "socket.io-store-memcached": ">=0.1.3"
   },
   "engines": {
     "node": ">=0.10.0"

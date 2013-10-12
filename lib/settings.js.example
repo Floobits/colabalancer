@@ -4,7 +4,7 @@ exports.ssl_key = "";
 
 exports.log_level = "debug";
 
-exports.cache_servers = ["127.0.0.1"];
+exports.cache_servers = ["127.0.0.1:11211"];
 exports.control_servers = ["http://127.0.0.1:8090"];
 
 exports.conn_keepalive = 30000;
