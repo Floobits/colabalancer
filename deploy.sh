@@ -32,3 +32,5 @@ sudo npm update && \
 sudo ln -s -f /data/releases/$RELEASE_NAME /data/colabalancer-new && \
 sudo mv -T -f /data/colabalancer-new /data/colabalancer && \
 sudo sv restart /service/colabalancer/"
+
+curl -X POST http://$USER:$USER@dev00.floobits.com/deploy/colabalancer/$HOST
