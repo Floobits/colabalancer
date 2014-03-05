@@ -12,9 +12,9 @@ exports.auth_timeout = 10000;
 
 exports.json_port = 3148;
 exports.json_port_ssl = 3448;
-exports.socket_io_port = 80;
-exports.socket_io_port_ssl = 443;
-exports.socket_io_transports = ["websocket"];
+exports.engine_io_port = 80;
+exports.engine_io_port_ssl = 443;
+exports.engine_io_transports = ["websocket"];
 
 exports.metrics_port = 81;
 
