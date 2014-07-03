@@ -2,4 +2,5 @@
 .sublime-project
 node_modules
 npm-debug.log
-lib/settings.js
+lib/local_settings.js
+*.tar.gz
