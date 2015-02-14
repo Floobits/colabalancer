@@ -2,7 +2,5 @@ g++
 git
 make
 msmtp
-nodejs
-npm
 pkg-config
 runit
