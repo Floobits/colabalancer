@@ -14,7 +14,7 @@ RELEASE_DIR="/data/releases/$RELEASE_NAME"
 mkdir $RELEASE_DIR && \
 tar xzf $TARBALL --directory $RELEASE_DIR && \
 cd $RELEASE_DIR && \
-HOME=/tmp npm rebuild && \
+HOME=/tmp npm rebuild --unsafe-perm && \
 node ./lib/migrate_settings.js /data/colabalancer/lib && \
 cp /data/colabalancer/lib/local_settings.js $RELEASE_DIR/lib/local_settings.js && \
 ln -s -f $RELEASE_DIR /data/colabalancer-new && \
