@@ -8,7 +8,7 @@
   ],
   "version": "0.0.1",
   "dependencies": {
-    "async": "0.9.x",
+    "async": "1.x",
     "engine.io": "1.5.x",
     "floorine": "0.x",
     "lodash": "3.x",
