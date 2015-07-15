@@ -24,6 +24,6 @@
   "scripts": {
     "start": "./bin/colabalancer",
     "test": "NODE_PATH=lib:tests ./tests/run_tests",
-    "lint": "./node_modules/eslint/bin/eslint.js lib/*.js lib/agent/*.js tests/*.js"
+    "lint": "./node_modules/eslint/bin/eslint.js ."
   }
 }
