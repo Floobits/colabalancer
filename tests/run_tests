@@ -1,4 +1,4 @@
-!#/usr/bin/env node
+#!/usr/bin/env node
 
 const reporter = require('nodeunit').reporters.default;
 reporter.run(["tests/test.js"]);
