@@ -16,14 +16,15 @@
     "request": "2.x"
   },
   "devDependencies": {
-    "eslint": "1.x"
+    "eslint": "1.x",
+    "eslint-config-floobits": "*"
   },
   "engines": {
-    "node": ">=2.0"
+    "node": ">=3.0"
   },
   "scripts": {
     "start": "./bin/colabalancer",
     "test": "NODE_PATH=lib:tests ./tests/run_tests",
-    "lint": "./node_modules/eslint/bin/eslint.js ."
+    "lint": "eslint ."
   }
 }
