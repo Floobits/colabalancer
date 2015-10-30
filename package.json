@@ -3,6 +3,7 @@
   "bin": "./bin/colabalancer",
   "repository": "https://github.com/Floobits/colabalancer/",
   "license": "UNLICENSED",
+  "private": true,
   "contributors": [
     "Matt Kaniaris <mkaniaris@gmail.com>",
     "Geoff Greer <geoff@greer.fm>"
