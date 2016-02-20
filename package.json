@@ -13,6 +13,7 @@
     "async": "1.x",
     "engine.io": "1.6.x",
     "floorine": "0.x",
+    "heapdump": "0.3.x",
     "lodash": "4.x",
     "nodeunit": "0.9.x",
     "request": "2.x"
