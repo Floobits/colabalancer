@@ -19,9 +19,7 @@ set -x
 mkdir "$RELEASE_DIR" && \
 tar xzf "$TARBALL" --directory "$RELEASE_DIR" && \
 cd "$RELEASE_DIR" && \
-HOME=/tmp npm rebuild --unsafe-perm --build-from-source heapdump && \
-rm -fr /tmp/.node* && \
-HOME=/tmp npm rebuild --unsafe-perm --build-from-source $(ls node_modules | grep -v heapdump) && \
+HOME=/tmp npm rebuild --unsafe-perm --build-from-source && \
 cp /data/colabalancer/lib/local_settings.js "$RELEASE_DIR/lib/local_settings.js" && \
 ln -s -f "$RELEASE_DIR" /data/colabalancer-new && \
 mv -T -f /data/colabalancer-new /data/colabalancer && \
