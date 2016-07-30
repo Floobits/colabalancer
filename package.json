@@ -19,11 +19,11 @@
     "request": "2.x"
   },
   "devDependencies": {
-    "eslint": "2.x",
+    "eslint": "3.x",
     "eslint-config-floobits": "*"
   },
   "engines": {
-    "node": ">=3.0"
+    "node": ">=6.0"
   },
   "scripts": {
     "start": "./bin/colabalancer",
