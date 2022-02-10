@@ -11,7 +11,7 @@
   "version": "0.0.1",
   "dependencies": {
     "async": "1.x",
-    "engine.io": "1.8.x",
+    "engine.io": "4.1.x",
     "floorine": "0.x",
     "lodash": "4.x",
     "nodeunit": "0.10.x",
